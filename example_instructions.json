@@ -1,0 +1,25 @@
+[
+  {
+    "style": "ghost_mannequin",
+    "background": "white studio",
+    "framing": "tall_3_4",
+    "angle": "three_quarter",
+    "shadow": "contact",
+    "num_variations": 3,
+    "options": {
+      "size": "2K",
+      "ar": "3:4",
+      "format": "jpg"
+    }
+  },
+  {
+    "style": "flat_lay",
+    "surface": "linen",
+    "shadow": "natural",
+    "options": {
+      "size": "2K",
+      "ar": "1:1",
+      "format": "jpg"
+    }
+  }
+]
