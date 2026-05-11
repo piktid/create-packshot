@@ -47,6 +47,8 @@ credentials.json
 *.ico
 *.webp
 
+!banner.webp
+
 # Logs
 *.log
 logs/
