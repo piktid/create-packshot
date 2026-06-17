@@ -189,9 +189,10 @@ def main():
     generation_group = parser.add_argument_group("generation options")
     generation_group.add_argument(
         "--model",
-        choices=["auto", "nano_banana_pro", "seedream"],
+        choices=["auto", "nano_banana_2", "nano_banana_pro", "seedream", "gpt_image"],
         default="auto",
-        help="Generation engine. 'auto' (default) uses the default engine with safety fallback.",
+        help="Generation engine: auto | nano_banana_2 | nano_banana_pro | seedream | gpt_image. "
+             "'auto' (default) uses the default engine with a safety fallback.",
     )
     generation_group.add_argument(
         "--use-anchor",
